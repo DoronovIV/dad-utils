@@ -7,7 +7,5 @@
   "semi": true,
   "endOfLine": "lf",
   "tabWidth": 2,
-  "importOrderParserPlugins": ["typescript", "decorators-legacy", "classProperties"],
-  "importOrderSeparation": true,
-  "importOrderSortSpecifiers": true
+  "bracketSameLine": true
 }

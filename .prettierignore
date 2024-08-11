@@ -1,8 +1,10 @@
 **/.git
 **/.svn
-**/*/node_modules
+**/node_modules
 **/*.md
 **/*.spec.ts
 **/main.ts
 dist
+**/.vscode
 **/*.yaml
+**/*.svg
