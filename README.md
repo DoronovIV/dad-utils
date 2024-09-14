@@ -6,7 +6,7 @@ For now, several utils are being planned:
 
 
 ## Tech stack
-- **Front**: `react`, `vite`, `jest`
+- **Core**: `react`, `vite`, `jest`
 - **UI**: `bootstrap`, `scss`, `BEM`
 - **State**: `redux`
 - **Lang**: `typescript`
