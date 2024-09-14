@@ -7,8 +7,8 @@ For now, several utils are being planned:
 
 ## Tech stack
 - **Front**: `react`, `vite`, `jest`
-- **UI**: `custom`, `scss`, `BEM`
-- **Data model**: `redux`
+- **UI**: `bootstrap`, `scss`, `BEM`
+- **State**: `redux`
 - **Lang**: `typescript`
 - **Lint**: `eslint`, `prettier`, `husky`
 
