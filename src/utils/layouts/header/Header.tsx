@@ -1,5 +1,10 @@
 import React, { FC } from 'react';
-import { NavLink, Outlet } from 'react-router-dom';
+import { Outlet } from 'react-router-dom';
+
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import './Header.scss';
 
@@ -8,14 +13,14 @@ interface HeaderProps {}
 const Header: FC<HeaderProps> = () => {
   return (
     <div className="container">
-      <div className="header">
-        <NavLink className="header__title" to="/">
+      <Navbar className="header">
+        <Nav.Link className="header__link" href="/">
           Timer
-        </NavLink>
-        <NavLink className="header__title" to="calc">
+        </Nav.Link>
+        <Nav.Link className="header__link" href="calc">
           Calculator
-        </NavLink>
-      </div>
+        </Nav.Link>
+      </Navbar>
 
       <Outlet />
     </div>
